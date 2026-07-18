@@ -80,7 +80,7 @@ h1{
   font-family:var(--display); font-weight:700; font-size:clamp(38px,5.4vw,64px);
   line-height:1.04; letter-spacing:-0.01em; margin-bottom:20px;
 }
-h1 .accent{color:var(--amber);}
+.accent{color:var(--amber);}
 .role-line{font-family:var(--mono); font-size:15px; color:var(--ink-dim); margin-bottom:24px;}
 .role-line span{color:var(--ink);}
 .hero p.lead{font-size:16px; color:var(--ink-dim); max-width:52ch; margin-bottom:32px;}
@@ -298,10 +298,15 @@ footer p.lead{color:var(--ink-dim); max-width:48ch; margin-bottom:36px;}
 .process-card:hover{ transform:translateY(-4px); border-color:var(--amber); }
 .process-card + .process-card{ margin-top:-64px; }
 .process-card:nth-child(1){ z-index:1; }
+.process-card:nth-child(1):hover{ z-index:3; }
 .process-card:nth-child(2){ z-index:2; }
+.process-card:nth-child(2):hover{ z-index: 4; }
 .process-card:nth-child(3){ z-index:3; }
+.process-card:nth-child(3):hover{ z-index: 5; }
 .process-card:nth-child(4){ z-index:4; }
+.process-card:nth-child(4):hover{ z-index: 6; }
 .process-card:nth-child(5){ z-index:5; }
+.process-card:nth-child(5):hover{ z-index: 7; }
 .process-card:nth-child(6){ z-index:6; }
 .process-card::before{
   content:attr(data-num); position:absolute; top:-14px; right:-4px;
