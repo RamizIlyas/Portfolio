@@ -11,9 +11,6 @@ const projectData = {
       "Created a scalable backend with secure document management, vector search, and AI integration for fast and reliable legal information retrieval.",
       "Built a responsive frontend with an intuitive interface, making complex legal information accessible to non-technical users.",
 
-      // "Designed a platform delivering preliminary legal guidance and case-related insights to nontechnical users",
-      // "Built an NLP-based query analysis pipeline to recommend relevant laws, procedures, and possible actions",
-      // "Structured legal knowledge into a searchable system, improving retrieval efficiency for decision support"
     ],
     stack: [
       "React (TypeScript)",
@@ -45,7 +42,7 @@ const projectData = {
       "Designed a scalable and modular application architecture with reusable frontend components and maintainable backend services.",
     ],
     stack: ["React (TypeScript)", "Node.js", "Express.js", "MongoDB"],
-    media: 4,
+    media: 0,
   },
   hospital: {
     title: "Hospital Appointment Scheduling Simulation",
@@ -85,18 +82,18 @@ const projectData = {
       "Bootstrap",
       "jQuery Validation",
     ],
-    media: 4,
+    media: 0,
   },
-  spotify: {
-    title: "Spotify Clone — Music Streaming Web App",
-    role: "UI / front-end build",
-    date: "Jan 2024 – Apr 2024",
-    desc: [
-      "Built a responsive music streaming interface with search, playlist customization, and personalized recommendations",
-    ],
-    stack: ["HTML", "CSS", "UI/UX Design"],
-    media: 4,
-  },
+  // spotify: {
+  //   title: "Spotify Clone — Music Streaming Web App",
+  //   role: "UI / front-end build",
+  //   date: "Jan 2024 – Apr 2024",
+  //   desc: [
+  //     "Built a responsive music streaming interface with search, playlist customization, and personalized recommendations",
+  //   ],
+  //   stack: ["HTML", "CSS", "UI/UX Design"],
+  //   media: 4,
+  // },
   "whatsapp-appointment": {
     title: "AI-Powered WhatsApp Appointment Management System",
     role: "n8n workflow automation",
@@ -212,3 +209,4 @@ const io = new IntersectionObserver(
   { threshold: 0.12 },
 );
 revealEls.forEach((el) => io.observe(el));
+

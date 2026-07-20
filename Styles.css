@@ -631,9 +631,9 @@ footer p.lead {
   margin-bottom: 36px;
 }
 .contact-grid {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
   margin-bottom: 56px;
 }
 .contact-card {
@@ -818,7 +818,7 @@ footer p.lead {
   }
 }
 .media-slot {
-  /* aspect-ratio: 16/10; */
+  aspect-ratio: 16/10;
   border: 1px dashed var(--border);
   display: flex;
   flex-direction: column;
